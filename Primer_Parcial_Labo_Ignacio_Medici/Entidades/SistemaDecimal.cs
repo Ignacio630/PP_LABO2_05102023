@@ -10,12 +10,11 @@ namespace Entidades
     public class SistemaDecimal : Numeracion
     {
 
-        override double ValorNumerico
+        public override double ValorNumerico
         {
             get
             {
-                double.TryParse(this.valor, out double valorNumerico);
-
+                double.TryParse(this.Valor, out double valorNumerico);
                 return valorNumerico;
             }
         }

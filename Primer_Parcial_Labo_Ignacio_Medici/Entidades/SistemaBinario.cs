@@ -8,7 +8,7 @@ namespace Entidades
 {
     public class SistemaBinario : Numeracion
     {
-        internal double ValorNumerico
+        public override double ValorNumerico
         {
             get
             {

@@ -4,11 +4,12 @@ namespace Primer_Parcial_Labo
 {
     public partial class FrmCalculadora : Form
     {
-        Calculadora calculadora = new Calculadora();
+        private Calculadora calculadora;
 
         public FrmCalculadora()
         {
             InitializeComponent();
+            this.calculadora = new Calculadora("Ignacio Medici");
         }
 
         private void FrmCalculadora_Load(object sender, EventArgs e)
@@ -73,11 +74,6 @@ namespace Primer_Parcial_Labo
         private void rdbBinario_CheckedChanged(object sender, EventArgs e)
         {
             calculadora.Sistema = ESistema.Binario;
-        }
-
-        private void setResultado()
-        {
-
         }
 
         private void MostrarHistorial()

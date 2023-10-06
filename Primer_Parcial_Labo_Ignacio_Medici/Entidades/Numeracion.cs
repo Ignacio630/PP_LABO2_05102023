@@ -10,7 +10,10 @@
             get { return this.valor; }
         }
 
-        public abstract double ValorNumerico();
+        public abstract double ValorNumerico
+        {
+            get;
+        }
 
 
         public abstract Numeracion CambiarSistemaDeNumeracion(ESistema sistema);
@@ -51,7 +54,7 @@
         }
         public static explicit operator double(Numeracion n1)
         {
-            return n1.ValorNumerico();
+            return n1.ValorNumerico;
         }
     }
 }

@@ -77,11 +77,18 @@ namespace Entidades
             }
         }
 
-        
+
+       
+
         public Calculadora()
         {
-            this.operaciones = new List<string>();
             this.sistema = ESistema.Decimal;
+            this.operaciones = new List<string>();
+        }
+
+        public Calculadora(string nombreAlumno)
+        {
+            this.nombreAlumno = nombreAlumno;
         }
 
         private Numeracion MapeaResultado(double valor)
@@ -107,8 +114,8 @@ namespace Entidades
 
         public void Calcular(char operador)
         {
-            double auxValorPrimerOperando = this.PrimerOperando.ValorNumerico();
-            double auxValorSegundoOperando = this.SegundoOperando.ValorNumerico();
+            double auxValorPrimerOperando = this.PrimerOperando.ValorNumerico;
+            double auxValorSegundoOperando = this.SegundoOperando.ValorNumerico;
             switch (operador)
             {
                 case '+':
@@ -121,7 +128,7 @@ namespace Entidades
                     this.resultado = new SistemaDecimal((auxValorPrimerOperando * auxValorSegundoOperando).ToString());
                     break;
                 case '/':
-                    if (segundoOperando.ValorNumerico() == 0)
+                    if (segundoOperando.ValorNumerico == 0)
                     {
                         this.resultado = new SistemaDecimal("0");
                     }
@@ -138,15 +145,15 @@ namespace Entidades
         public void ActualizaHistorialDeOperaciones(char operador)
         {
             StringBuilder builder = new StringBuilder();
-            builder.Append(Sistema);
-            builder.Append(" - ");
-            builder.Append(primerOperando.Valor);
-            builder.Append(" - ");
-            builder.Append(primerOperando.Valor);
-            builder.Append(" - ");
-            builder.Append(operador);
-            builder.Append(" - ");
-            builder.Append(segundoOperando.Valor);
+            builder.AppendLine(this.Sistema.ToString());
+            builder.AppendLine(" - ");
+            builder.AppendLine(primerOperando.Valor);
+            builder.AppendLine(" - ");
+            builder.AppendLine(primerOperando.Valor);
+            builder.AppendLine(" - ");
+            builder.AppendLine(operador.ToString());
+            builder.AppendLine(" - ");
+            builder.AppendLine(segundoOperando.Valor);
 
             this.operaciones.Add(builder.ToString());
             
