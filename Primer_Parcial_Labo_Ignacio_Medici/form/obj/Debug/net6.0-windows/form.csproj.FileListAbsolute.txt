@@ -1,0 +1,16 @@
+C:\Users\ignac\source\repos\integrador_ignacio_medici\form\form\bin\Debug\net6.0-windows\form.exe
+C:\Users\ignac\source\repos\integrador_ignacio_medici\form\form\bin\Debug\net6.0-windows\form.deps.json
+C:\Users\ignac\source\repos\integrador_ignacio_medici\form\form\bin\Debug\net6.0-windows\form.runtimeconfig.json
+C:\Users\ignac\source\repos\integrador_ignacio_medici\form\form\bin\Debug\net6.0-windows\form.dll
+C:\Users\ignac\source\repos\integrador_ignacio_medici\form\form\bin\Debug\net6.0-windows\form.pdb
+C:\Users\ignac\source\repos\integrador_ignacio_medici\form\form\obj\Debug\net6.0-windows\form.Form1.resources
+C:\Users\ignac\source\repos\integrador_ignacio_medici\form\form\obj\Debug\net6.0-windows\form.csproj.GenerateResource.cache
+C:\Users\ignac\source\repos\integrador_ignacio_medici\form\form\obj\Debug\net6.0-windows\form.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ignac\source\repos\integrador_ignacio_medici\form\form\obj\Debug\net6.0-windows\form.AssemblyInfoInputs.cache
+C:\Users\ignac\source\repos\integrador_ignacio_medici\form\form\obj\Debug\net6.0-windows\form.AssemblyInfo.cs
+C:\Users\ignac\source\repos\integrador_ignacio_medici\form\form\obj\Debug\net6.0-windows\form.csproj.CoreCompileInputs.cache
+C:\Users\ignac\source\repos\integrador_ignacio_medici\form\form\obj\Debug\net6.0-windows\form.dll
+C:\Users\ignac\source\repos\integrador_ignacio_medici\form\form\obj\Debug\net6.0-windows\refint\form.dll
+C:\Users\ignac\source\repos\integrador_ignacio_medici\form\form\obj\Debug\net6.0-windows\form.pdb
+C:\Users\ignac\source\repos\integrador_ignacio_medici\form\form\obj\Debug\net6.0-windows\form.genruntimeconfig.cache
+C:\Users\ignac\source\repos\integrador_ignacio_medici\form\form\obj\Debug\net6.0-windows\ref\form.dll
