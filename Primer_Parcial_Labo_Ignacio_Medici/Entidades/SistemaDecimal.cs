@@ -10,7 +10,7 @@ namespace Entidades
     public class SistemaDecimal : Numeracion
     {
 
-        internal double ValorNumerico
+        override double ValorNumerico
         {
             get
             {

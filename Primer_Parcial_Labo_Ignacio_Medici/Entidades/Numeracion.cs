@@ -10,13 +10,7 @@
             get { return this.valor; }
         }
 
-        internal double ValorNumerico
-        {
-            get
-            {
-                return 0;
-            }
-        }
+        public abstract double ValorNumerico();
 
 
         public abstract Numeracion CambiarSistemaDeNumeracion(ESistema sistema);
@@ -57,8 +51,7 @@
         }
         public static explicit operator double(Numeracion n1)
         {
-            double.TryParse(n1.valor,out  double result);
-            return result;
+            return n1.ValorNumerico();
         }
     }
 }

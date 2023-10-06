@@ -33,16 +33,19 @@ namespace Entidades
             }
         }
 
-        public Numeracion PrimerOperador
+        public Numeracion PrimerOperando
         {
             get
             {
                 return this.primerOperando;
             }
-            set { this.primerOperando = value; }
+            set 
+            { 
+                this.primerOperando = value; 
+            }
         }
 
-        public Numeracion SegundoOperador
+        public Numeracion SegundoOperando
         {
             get
             {
@@ -74,12 +77,83 @@ namespace Entidades
             }
         }
 
-       
-
+        
         public Calculadora()
         {
+            this.operaciones = new List<string>();
             this.sistema = ESistema.Decimal;
         }
 
+        private Numeracion MapeaResultado(double valor)
+        {
+            if(this.sistema == ESistema.Decimal)
+            {
+                return this.resultado.CambiarSistemaDeNumeracion(ESistema.Decimal);
+            }
+            else if (this.sistema == ESistema.Binario)
+            {
+                return this.resultado.CambiarSistemaDeNumeracion(ESistema.Binario);
+            }
+            else
+            {
+                return this.resultado;
+            }
+        }
+
+        public void Calcular()
+        {
+
+        }
+
+        public void Calcular(char operador)
+        {
+            double auxValorPrimerOperando = this.PrimerOperando.ValorNumerico();
+            double auxValorSegundoOperando = this.SegundoOperando.ValorNumerico();
+            switch (operador)
+            {
+                case '+':
+                    this.resultado = new SistemaDecimal((auxValorPrimerOperando + auxValorSegundoOperando).ToString());
+                    break;
+                case '-':
+                    this.resultado = new SistemaDecimal((auxValorPrimerOperando - auxValorSegundoOperando).ToString());
+                    break;
+                case '*':
+                    this.resultado = new SistemaDecimal((auxValorPrimerOperando * auxValorSegundoOperando).ToString());
+                    break;
+                case '/':
+                    if (segundoOperando.ValorNumerico() == 0)
+                    {
+                        this.resultado = new SistemaDecimal("0");
+                    }
+                    else
+                    {
+                        this.resultado = new SistemaDecimal((auxValorPrimerOperando / auxValorSegundoOperando).ToString());
+                    }
+                    break;
+                default:
+                    this.resultado = new SistemaDecimal(auxValorPrimerOperando.ToString());
+                    break;
+            }
+        }
+        public void ActualizaHistorialDeOperaciones(char operador)
+        {
+            StringBuilder builder = new StringBuilder();
+            builder.Append(Sistema);
+            builder.Append(" - ");
+            builder.Append(primerOperando.Valor);
+            builder.Append(" - ");
+            builder.Append(primerOperando.Valor);
+            builder.Append(" - ");
+            builder.Append(operador);
+            builder.Append(" - ");
+            builder.Append(segundoOperando.Valor);
+
+            this.operaciones.Add(builder.ToString());
+            
+        }
+        public void EliminarHistorialDeOperaciones()
+        {
+            this.operaciones.Clear();
+        }
     }
 }
