@@ -2,7 +2,7 @@
 {
     public abstract class Numeracion
     {
-        protected string msgError;
+        protected static string msgError;
         protected string valor;
 
         public string Valor
@@ -18,13 +18,12 @@
 
         public abstract Numeracion CambiarSistemaDeNumeracion(ESistema sistema);
 
-        private Numeracion()
+        static Numeracion()
         {
-            this.msgError = "Numero Invalido";
+            msgError = "Numero Invalido";
         }
 
         protected Numeracion(string valor)
-            :this()
         {
             this.InicializaValor(valor);
         }
@@ -36,16 +35,30 @@
             }
             else
             {
-                this.valor = this.msgError;
+                this.valor = msgError;
             }
         }
 
-        protected bool EsNumeracionValida(string valor)
+        protected virtual bool EsNumeracionValida(string valor)
         {
             return string.IsNullOrEmpty(valor);
         }
         public static bool operator ==(Numeracion n1, Numeracion n2)
         {
+            if (ReferenceEquals(n1, null) && ReferenceEquals(n2, null))
+            {
+                return true;
+            }
+            else if (ReferenceEquals(n1, null) || ReferenceEquals(n2, null))
+            {
+                return false;
+            }
+
+            else if (n1.GetType() != n2.GetType())
+            {
+                return false;
+            }
+
             return n1.valor == n2.valor;
         }
         public static bool operator !=(Numeracion n1, Numeracion n2)

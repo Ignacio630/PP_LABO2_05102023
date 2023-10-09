@@ -20,3 +20,14 @@ C:\Users\ignac\source\repos\integrador_ignacio_medici\Primer_Parcial_Labo_Ignaci
 C:\Users\ignac\source\repos\integrador_ignacio_medici\Primer_Parcial_Labo_Ignacio_Medici\Entidades\obj\Debug\net6.0\refint\Entidades.dll
 C:\Users\ignac\source\repos\integrador_ignacio_medici\Primer_Parcial_Labo_Ignacio_Medici\Entidades\obj\Debug\net6.0\Entidades.pdb
 C:\Users\ignac\source\repos\integrador_ignacio_medici\Primer_Parcial_Labo_Ignacio_Medici\Entidades\obj\Debug\net6.0\ref\Entidades.dll
+C:\Users\ext_imedici\Source\Repos\Ignacio630\PP_LABO2_05102023\Primer_Parcial_Labo_Ignacio_Medici\Entidades\bin\Debug\net6.0\Entidades.deps.json
+C:\Users\ext_imedici\Source\Repos\Ignacio630\PP_LABO2_05102023\Primer_Parcial_Labo_Ignacio_Medici\Entidades\bin\Debug\net6.0\Entidades.dll
+C:\Users\ext_imedici\Source\Repos\Ignacio630\PP_LABO2_05102023\Primer_Parcial_Labo_Ignacio_Medici\Entidades\bin\Debug\net6.0\Entidades.pdb
+C:\Users\ext_imedici\Source\Repos\Ignacio630\PP_LABO2_05102023\Primer_Parcial_Labo_Ignacio_Medici\Entidades\obj\Debug\net6.0\Entidades.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ext_imedici\Source\Repos\Ignacio630\PP_LABO2_05102023\Primer_Parcial_Labo_Ignacio_Medici\Entidades\obj\Debug\net6.0\Entidades.AssemblyInfoInputs.cache
+C:\Users\ext_imedici\Source\Repos\Ignacio630\PP_LABO2_05102023\Primer_Parcial_Labo_Ignacio_Medici\Entidades\obj\Debug\net6.0\Entidades.AssemblyInfo.cs
+C:\Users\ext_imedici\Source\Repos\Ignacio630\PP_LABO2_05102023\Primer_Parcial_Labo_Ignacio_Medici\Entidades\obj\Debug\net6.0\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\ext_imedici\Source\Repos\Ignacio630\PP_LABO2_05102023\Primer_Parcial_Labo_Ignacio_Medici\Entidades\obj\Debug\net6.0\Entidades.dll
+C:\Users\ext_imedici\Source\Repos\Ignacio630\PP_LABO2_05102023\Primer_Parcial_Labo_Ignacio_Medici\Entidades\obj\Debug\net6.0\refint\Entidades.dll
+C:\Users\ext_imedici\Source\Repos\Ignacio630\PP_LABO2_05102023\Primer_Parcial_Labo_Ignacio_Medici\Entidades\obj\Debug\net6.0\Entidades.pdb
+C:\Users\ext_imedici\Source\Repos\Ignacio630\PP_LABO2_05102023\Primer_Parcial_Labo_Ignacio_Medici\Entidades\obj\Debug\net6.0\ref\Entidades.dll

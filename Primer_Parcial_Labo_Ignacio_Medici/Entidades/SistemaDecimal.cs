@@ -20,13 +20,22 @@ namespace Entidades
         }
 
         
-        public SistemaDecimal(string valor) : base(valor)
+        public SistemaDecimal(string valor) 
+            :base(valor)
         {
+            base.valor = DecimalABinario(valor);
         }
 
         public override Numeracion CambiarSistemaDeNumeracion(ESistema sistema)
         { 
-            return this;
+            if(sistema == ESistema.Decimal) 
+            {
+                return new SistemaDecimal(this.ValorNumerico.ToString());
+            }
+            else
+            {
+                return new SistemaBinario(this.ValorNumerico.ToString());
+            }
         }
 
         protected new bool EsNumeracionValida(string valor)
@@ -48,7 +57,7 @@ namespace Entidades
             }
             else
             {
-                return new SistemaBinario(this.msgError);
+                return new SistemaBinario(msgError);
             }
         }
 

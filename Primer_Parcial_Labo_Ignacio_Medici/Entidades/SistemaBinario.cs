@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -25,7 +26,7 @@ namespace Entidades
         }
         public override Numeracion CambiarSistemaDeNumeracion(ESistema sistema)
         {
-            return new SistemaBinario(valor);
+            return this;
         }
 
         private bool EsSistemaBinarioValido(string valor)
@@ -47,7 +48,7 @@ namespace Entidades
 
         private SistemaDecimal BinarioADecimal()
         {
-            if(this.valor != this.msgError)
+            if(this.valor != msgError)
             {
                 return new SistemaDecimal(this.valor);
             }

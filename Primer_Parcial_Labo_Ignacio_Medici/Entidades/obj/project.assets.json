@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\ignac\\.nuget\\packages\\": {}
+    "C:\\Users\\ext_imedici\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ignac\\source\\repos\\integrador_ignacio_medici\\Primer_Parcial_Labo_Ignacio_Medici\\Entidades\\Entidades.csproj",
+      "projectUniqueName": "C:\\Users\\ext_imedici\\Source\\Repos\\Ignacio630\\PP_LABO2_05102023\\Primer_Parcial_Labo_Ignacio_Medici\\Entidades\\Entidades.csproj",
       "projectName": "Entidades",
-      "projectPath": "C:\\Users\\ignac\\source\\repos\\integrador_ignacio_medici\\Primer_Parcial_Labo_Ignacio_Medici\\Entidades\\Entidades.csproj",
-      "packagesPath": "C:\\Users\\ignac\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ignac\\source\\repos\\integrador_ignacio_medici\\Primer_Parcial_Labo_Ignacio_Medici\\Entidades\\obj\\",
+      "projectPath": "C:\\Users\\ext_imedici\\Source\\Repos\\Ignacio630\\PP_LABO2_05102023\\Primer_Parcial_Labo_Ignacio_Medici\\Entidades\\Entidades.csproj",
+      "packagesPath": "C:\\Users\\ext_imedici\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ext_imedici\\Source\\Repos\\Ignacio630\\PP_LABO2_05102023\\Primer_Parcial_Labo_Ignacio_Medici\\Entidades\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ignac\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ext_imedici\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

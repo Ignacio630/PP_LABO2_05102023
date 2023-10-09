@@ -27,19 +27,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ignac\\.nuget\\packages\\": {}
+    "C:\\Users\\ext_imedici\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ignac\\source\\repos\\integrador_ignacio_medici\\Primer_Parcial_Labo_Ignacio_Medici\\integrador_ignacio_medici\\Primer_Parcial_Labo.csproj",
+      "projectUniqueName": "C:\\Users\\ext_imedici\\Source\\Repos\\Ignacio630\\PP_LABO2_05102023\\Primer_Parcial_Labo_Ignacio_Medici\\integrador_ignacio_medici\\Primer_Parcial_Labo.csproj",
       "projectName": "Primer_Parcial_Labo",
-      "projectPath": "C:\\Users\\ignac\\source\\repos\\integrador_ignacio_medici\\Primer_Parcial_Labo_Ignacio_Medici\\integrador_ignacio_medici\\Primer_Parcial_Labo.csproj",
-      "packagesPath": "C:\\Users\\ignac\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ignac\\source\\repos\\integrador_ignacio_medici\\Primer_Parcial_Labo_Ignacio_Medici\\integrador_ignacio_medici\\obj\\",
+      "projectPath": "C:\\Users\\ext_imedici\\Source\\Repos\\Ignacio630\\PP_LABO2_05102023\\Primer_Parcial_Labo_Ignacio_Medici\\integrador_ignacio_medici\\Primer_Parcial_Labo.csproj",
+      "packagesPath": "C:\\Users\\ext_imedici\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ext_imedici\\Source\\Repos\\Ignacio630\\PP_LABO2_05102023\\Primer_Parcial_Labo_Ignacio_Medici\\integrador_ignacio_medici\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ignac\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ext_imedici\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -53,8 +53,8 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Users\\ignac\\source\\repos\\integrador_ignacio_medici\\Primer_Parcial_Labo_Ignacio_Medici\\Entidades\\Entidades.csproj": {
-              "projectPath": "C:\\Users\\ignac\\source\\repos\\integrador_ignacio_medici\\Primer_Parcial_Labo_Ignacio_Medici\\Entidades\\Entidades.csproj"
+            "C:\\Users\\ext_imedici\\Source\\Repos\\Ignacio630\\PP_LABO2_05102023\\Primer_Parcial_Labo_Ignacio_Medici\\Entidades\\Entidades.csproj": {
+              "projectPath": "C:\\Users\\ext_imedici\\Source\\Repos\\Ignacio630\\PP_LABO2_05102023\\Primer_Parcial_Labo_Ignacio_Medici\\Entidades\\Entidades.csproj"
             }
           }
         }

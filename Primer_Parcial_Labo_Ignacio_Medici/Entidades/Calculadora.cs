@@ -149,11 +149,11 @@ namespace Entidades
             builder.AppendLine(" - ");
             builder.AppendLine(primerOperando.Valor);
             builder.AppendLine(" - ");
-            builder.AppendLine(primerOperando.Valor);
+            builder.AppendLine(segundoOperando.Valor);
             builder.AppendLine(" - ");
             builder.AppendLine(operador.ToString());
             builder.AppendLine(" - ");
-            builder.AppendLine(segundoOperando.Valor);
+            builder.AppendLine(resultado.Valor);
 
             this.operaciones.Add(builder.ToString());
             
